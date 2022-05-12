@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "es5",                      
+      "jsx": "react", 
+      "module": "commonjs", 
+      "rootDir": "src",
+      "moduleResolution": "node",                   
+      "baseUrl": "./src", 
+      "paths": {
+        "@ppuga/demo/*": ["./*"]
+      },                                    
+      "sourceMap": true, 
+      "outDir": "dist",                                  
+      "esModuleInterop": true, 
+      "forceConsistentCasingInFileNames": true, 
+      "skipLibCheck": true 
+    }
+  }
